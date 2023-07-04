@@ -1,0 +1,9 @@
+@import './main.css';
+
+.construcao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 6rem;
+}

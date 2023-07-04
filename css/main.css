@@ -1,0 +1,57 @@
+:root {
+    --main-font-family: 'Roboto', sans-serif;
+    --bg-color: #f1f1f1;
+    --blue: #0d8fff;
+    --blue-hover: #0e9fff;
+    --nav-link: #fff;
+    --nav-link-hover: #aaa;
+    --nav-link-active: #faa000;
+}
+
+a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 400;
+    color: var(--blue-hover)
+
+}
+
+.brand {
+    color: var(--blue);
+    font-weight: 400;
+
+}
+
+.brand:hover {
+    color: var(--blue-hover);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+body {
+    height: 100vh;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.link {
+    color: var(--nav-link);
+}
+
+.link:hover {
+    color: var(--nav-link-hover);
+}
+
+.active {
+    color: var(--nav-link-active) !important;
+}
+
+nav {
+    height: 6rem;
+}
